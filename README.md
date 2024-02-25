@@ -4,3 +4,4 @@
 ![icons8-linkedin-50](https://github.com/bhargavipilli/portfolio/assets/144048169/bbfe2ef7-60d6-480c-a385-01c434b7e788)
 ![icons8-twitter-circled-64](https://github.com/bhargavipilli/portfolio/assets/144048169/0f1f59f4-2bbf-4a60-9f20-915a3683f146)
 ![study](https://github.com/bhargavipilli/portfolio/assets/144048169/2c441c55-0045-43c6-ad43-8252d170ad68)
+![WhatsApp Image 2024-02-09 at 09 39 29](https://github.com/bhargavipilli/portfolio/assets/144048169/26ec1cce-4270-4d55-919d-8a9a87a90dc8)

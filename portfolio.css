@@ -1,0 +1,431 @@
+
+                *{
+                    margin: 0;
+                    padding: 0;
+                    color:white;
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+                body{
+                    background-color: rgba(0, 0, 0, 0.836);
+                    color: white;
+
+                }
+               
+                #header{
+                    box-sizing: border-box;
+                    justify-content: center;
+                    align-items: center;
+                  
+                    padding: 10px;
+                }
+               
+                #name{
+                    float: left;
+                    font-size: 20;
+                    color: rgb(190, 84, 190);
+                }
+                #menubutton
+                {
+                    display: none;
+                }
+                .links{
+                    font-size: 20;
+                    float:right;
+                    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                }
+                
+                nav .linkhead{
+                    padding: 10;
+                    text-decoration: none;
+                }
+                .linkhead:hover{
+                    color: rgba(201, 8, 201, 0.925);
+                }
+                @media(max-width:700px) {
+                    #header{
+                        font-size: 10;
+                        height:auto;
+                        width: 100%;
+                      
+                    }
+                    #name{
+                       display: inline;
+                        font-size: 9;
+                    }
+                    #menubutton{
+                        display: visible;
+                    }
+                    .links {
+                       
+                        font-size: 9;
+                        height: auto;
+                        width: 50%;
+                        display: visible;
+                        text-align: left;
+                        z-index: 2;
+                    }
+                    .linkhead a{
+                        padding: 5;
+                        display: block;
+                    }
+                    
+                }
+
+                #home{
+                    box-sizing: border-box;
+                    width:100%;
+                    height: auto;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                   
+                }
+                #hleft{
+                    box-sizing: border-box;
+                    width: 50%;
+                 
+                    margin-top:50;
+                    text-align: center;
+                    line-height: 1.5;
+                   
+                }
+                #hi{
+                    padding-top: 50;
+                    font-size: 25;   
+                }
+                #hname{
+                    font-size: 35;   
+                    font-weight: 500;
+                }
+                #job{
+                    font-size: 20;  
+                }
+                span{
+                    color: rgb(216, 23, 216);
+                    border-color: purple;
+                }
+                .sbut{
+                    margin: 10;
+                    padding: 10;
+                    height: auto;
+                    width: auto;
+                    border-radius: 4px;
+                    text-align: center;
+                    font-size: 15;
+                    border: none;
+                    color: black;
+                    transition: width 2s;
+                }
+                .sbut:hover,.sbut::after{
+                  
+                    background-color: rgb(176, 53, 192);
+                    color: white;
+                }
+                #profile{
+                    width:90%;
+                    height:auto;
+                    justify-content: center;
+                    align-items: center;
+                    margin-top:40;
+                   
+                }
+                #profile img{
+                    
+                    width: 100;
+                   padding-left: 50px;
+                    height: auto;
+                  
+                }
+                @media(max-width:700px){
+                   
+                    #home
+                    {
+                        display: block;
+                    }
+                    #profile img{
+                       
+                       margin:auto;
+                        width: 70%;
+                        display: block;
+                        padding-left: 20;
+                    }
+                    #hleft{
+                       
+                        width: 100%;
+                       margin: auto;
+                    }
+                   
+                }
+                @media(min-width:763px) {
+                    #profile img{
+                       
+                        margin:10px;
+                         width: 50%;
+                         height: auto;
+                         display: block;
+                        
+                     }
+                     #hleft{
+                        
+                         width: 100%;
+                        margin: 10px;
+                        height: 90%;
+                     }
+                    
+                }
+                .feature{
+                    width: 100%;
+                    height:auto;
+                    
+                }
+                .box{
+                    display: flex;
+                }
+                 .pskill{
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: auto;
+                    margin:10px 0px 10px 20px;
+                    line-height: 1.5;
+                    
+
+                    
+                }
+                @media(max-width:763px) {
+                    .feature .pskill{
+                    margin:50px;
+                    padding-left:50px;
+                    }
+                }
+                
+                .feature ul{
+                    justify-content: center;
+                    list-style-type: none;
+                }
+                
+                .container{
+                    width: 90%;
+                    background-color: rgb(218, 186, 218);
+                }
+                .skills{
+                    text-align:right;
+                    padding-top:10px;
+                    padding-bottom: 10px;
+                }
+                .html{
+                    width:90%;
+                   background-color: purple;
+                }
+                .css{
+                    width: 80%;
+                    background-color: purple;
+                }
+                .java{
+                    width: 80%;
+                    background-color: purple;
+                }
+                .Python{
+                    width: 75%;
+                    background-color: purple;
+                }
+                .sql{
+                    width: 65%;
+                    background-color: purple;
+                }
+                .js{
+                    width: 50%;
+                    background-color: purple;
+                }
+                .dsa{
+                    width: 65%;
+                    background-color: purple;
+                }
+                .c{
+                    width: 75%;
+                    background-color: purple;
+                }
+                .pheading h2{
+                    text-align: center;
+                    line-height: 2;
+                    margin: 20px;  
+                    color: white;
+                }
+                .pheading h3{
+                  
+                    line-height: 2;
+                    
+                }
+                .projects{
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: auto;
+                    margin:10px 10px 10px 0px;
+                    line-height: 1.5;
+                  
+                }
+                .aboutme{
+                    box-sizing: border-box;
+                    height: auto;
+                    width: 100%;
+                   
+                }
+                .about_content .pheading h1 span{
+                    color: purple;
+                }
+                .about_content{
+                    display: flex;
+                    clear: none;
+                }
+                .aboutme .pheading h3{
+                    text-align: none;
+                }
+                #about{
+                    width: 100%;
+                    padding: 10px;
+                    justify-content: center;
+                    text-align: justify;
+                    margin: 10px;
+                    line-height: 1.5;
+                    margin-top: 10px;
+                }
+                .aboutme img{
+                    width:30%;
+                    height: auto;
+                    margin-left: 20px;
+                    margin-right: 10px;
+                }
+                .aboutme button{
+                    width: 20%;
+                    height: 15%;
+                    border-radius: 50px;
+                    border-color: none;
+                    border-style: none;
+                    background-color: purple;
+                    color:black;
+                    font-size: medium;
+                    box-shadow: inset;
+                }
+                @media(max-width:763px) {
+                    .aboutme img{
+                        width:30%;
+                        height: auto;
+                        margin-left: 20px;
+                        margin-right: 0px;
+                    }
+                    #about{
+                        width:50%;
+                    }
+                }
+                .edu{
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: auto;
+                    line-height: 1.5;
+                    margin: 10px;
+                    padding: 10px;
+                    
+                }
+                .side-head{
+
+                }
+                .intern{
+                    box-sizing: border-box;
+                    width: 100%;
+                    height: auto;
+                    line-height: 1.5;
+                    margin: 10px;
+                    padding: 10px;
+                }
+                #aimage{
+                    float: right;
+                    margin: 30;
+                   
+                    clear: none;
+                }
+                #contact{
+                    box-sizing: border-box;
+                    height: auto;
+                    width:100%;
+                    text-align: center;
+                    place-items: center;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .inputs{
+                    box-sizing: border-box;
+                    height: auto;
+                    width:100%;
+                    text-align: center;
+                    
+                }
+                .inputs_one{
+                    border-style: none;
+                    width:30%;
+                    height:8%;
+                    border-color: none;
+                    border-radius: 3px;
+                    padding: 10;
+                    margin: 10px;
+                    background-color: rgba(0, 0, 0, 0.548);
+                    
+                }
+
+                .Your_msg{
+                    width:62%;
+                    height:35%;
+                    margin: 10px;
+                    border-color: none;
+                    border-radius: 3px;
+                    border-style: none;
+                    background-color: rgba(0, 0, 0, 0.548);
+                }
+                #contact button{
+                    width: 20%;
+                    height: 10%;
+                    border-radius: 50px;
+                    border-color: none;
+                    border-style: none;
+                    background-color: purple;
+                    color:black;
+                    font-size: medium;
+                }
+                @media(max-width:763px)
+                {
+                    #contact button{
+                        width: 30%;
+                        height: 7%;
+                        border-radius: 50px;
+                        
+                    }
+                    .Your_msg{
+                        width:70%;
+                        height:15%; 
+                    }
+                    .inputs_one{
+                       
+                        width:50%;
+                        height:5%;
+                       
+                    }
+    
+                }
+               
+                .copyright{
+                    height: 200px;
+                    background-color: black;
+                    margin-top: 10;
+                    width: 100%;
+                }
+                .ccontent{
+                    text-align: center;
+                    
+                    padding: 10;
+                }
+                .logos{
+                    box-sizing: border-box;
+                    height: auto;
+                    width: 100%;
+                    padding:30;
+                    text-align: center;
+                }
+               
